@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+  <rect width="1800" height="1200" fill="#f6efe4"/>
+  <text x="90" y="95" font-family="Georgia, serif" font-size="48" fill="#201915">Governance Mode: Subtractive Statecraft</text>
+  <text x="90" y="138" font-family="Arial, sans-serif" font-size="24" fill="#5a5048">Derived from top action-content combinations (n=105,544 rows in top matrix slice)</text>
+
+  <g transform="translate(220,250)">
+    <circle cx="500" cy="420" r="330" fill="#fdf8f1" stroke="#d5c8b7" stroke-width="2"/>
+    <path d="M500,420 L500,90 A330,330 0 1,1 369,722 z" fill="#8e1f1b"/>
+    <path d="M500,420 L369,722 A330,330 0 0,1 306,656 z" fill="#c66a4e"/>
+    <path d="M500,420 L306,656 A330,330 0 0,1 500,90 z" fill="#e3b39e"/>
+
+    <text x="860" y="360" font-family="Arial" font-size="34" fill="#8e1f1b">Deletion: 94.26%</text>
+    <text x="860" y="420" font-family="Arial" font-size="30" fill="#c66a4e">Replacement: 3.14%</text>
+    <text x="860" y="470" font-family="Arial" font-size="30" fill="#936d58">Insertion: 2.59%</text>
+  </g>
+
+  <rect x="90" y="930" width="1620" height="190" rx="16" fill="#fff8ef" stroke="#d4c7b6"/>
+  <text x="130" y="995" font-family="Arial" font-size="30" fill="#2f2824">Inference:</text>
+  <text x="130" y="1045" font-family="Arial" font-size="28" fill="#2f2824">The censorship apparatus functions predominantly through removal, not substitution or contextualization.</text>
+  <text x="130" y="1090" font-family="Arial" font-size="28" fill="#2f2824">This supports reading the archive as a politics of subtraction.</text>
+</svg>

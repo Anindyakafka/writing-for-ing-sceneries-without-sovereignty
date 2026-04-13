@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+  <rect width="1800" height="1200" fill="#f5ede2"/>
+  <text x="90" y="95" font-family="Georgia, serif" font-size="50" fill="#201915">Rupture: 2021 Is Not Just A Bigger Year</text>
+  <text x="90" y="138" font-family="Arial, sans-serif" font-size="24" fill="#5a5048">Inference plate from real computed CBFC release data</text>
+
+  <rect x="90" y="180" width="1620" height="250" rx="18" fill="#fff8ef" stroke="#d4c7b6"/>
+  <text x="130" y="245" font-family="Arial" font-size="36" fill="#8e1f1b">Intensity jump (seconds per certificate): +79.7%</text>
+  <text x="130" y="295" font-family="Arial" font-size="30" fill="#2f2824">2020: 121.65 -> 2021: 218.61</text>
+  <text x="130" y="345" font-family="Arial" font-size="28" fill="#2f2824">Volume jump (total modified seconds): +109.8%</text>
+  <text x="130" y="390" font-family="Arial" font-size="28" fill="#2f2824">Certificates rose only +16.8% in the same transition</text>
+
+  <line x1="140" y1="1020" x2="1650" y2="1020" stroke="#5a5048" stroke-width="2"/>
+  <line x1="140" y1="500" x2="140" y2="1020" stroke="#5a5048" stroke-width="2"/>
+
+  <polyline fill="none" stroke="#1d4f7a" stroke-width="7" points="260,895 440,894 620,809 800,620 980,703 1160,785 1340,836 1520,905"/>
+  <circle cx="800" cy="620" r="9" fill="#8e1f1b"/>
+  <text x="815" y="612" font-family="Arial" font-size="24" fill="#8e1f1b">2021 peak intensity</text>
+
+  <text x="250" y="1060" font-family="Arial" font-size="20" fill="#2f2824">2018</text>
+  <text x="430" y="1060" font-family="Arial" font-size="20" fill="#2f2824">2019</text>
+  <text x="610" y="1060" font-family="Arial" font-size="20" fill="#2f2824">2020</text>
+  <text x="790" y="1060" font-family="Arial" font-size="20" fill="#2f2824">2021</text>
+  <text x="970" y="1060" font-family="Arial" font-size="20" fill="#2f2824">2022</text>
+  <text x="1150" y="1060" font-family="Arial" font-size="20" fill="#2f2824">2023</text>
+  <text x="1330" y="1060" font-family="Arial" font-size="20" fill="#2f2824">2024</text>
+  <text x="1510" y="1060" font-family="Arial" font-size="20" fill="#2f2824">2025</text>
+
+  <text x="90" y="1135" font-family="Arial" font-size="24" fill="#3f352d">Observation: The archive indicates a regulatory hardening event, not merely more films entering certification.</text>
+</svg>

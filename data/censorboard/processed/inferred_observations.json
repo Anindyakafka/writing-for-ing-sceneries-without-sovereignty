@@ -1,0 +1,43 @@
+{
+  "derived_from": "data/censorboard/processed/real_computed_story_data.json",
+  "computed_on": "2026-04-13",
+  "inferences": {
+    "rupture": {
+      "period": "2020-2021",
+      "intensity_2020": 121.65,
+      "intensity_2021": 218.61,
+      "intensity_change_percent": 79.7,
+      "volume_2020": 219819.0,
+      "volume_2021": 461260.0,
+      "volume_change_percent": 109.8,
+      "certificate_change_percent": 16.8,
+      "observation": "Intervention intensity rose much faster than certification volume, suggesting a regulatory hardening rather than simple output expansion."
+    },
+    "governance_mode": {
+      "top_matrix_total": 105544,
+      "deletion_counts": 99490,
+      "deletion_share_percent": 94.26,
+      "replacement_share_percent": 3.14,
+      "insertion_share_percent": 2.59,
+      "observation": "The operational mode is overwhelmingly subtractive: deletion dominates intervention logic."
+    },
+    "language_disparity": {
+      "baseline": "English",
+      "english_seconds_per_certificate": 73.57,
+      "ratios": {
+        "Bengali_vs_English": 3.09,
+        "Hindi_vs_English": 1.99,
+        "Bhojpuri_vs_English": 3.65,
+        "Urdu_vs_English": 12.7
+      },
+      "observation": "Burden distribution is uneven across language clusters, with several languages showing far higher intervention time per certificate than English."
+    },
+    "lexical_proceduralization": {
+      "tracked_tokens": ["muted", "word", "visuals"],
+      "2018_total": 8527,
+      "2024_total": 6112,
+      "retention_percent": 71.68,
+      "observation": "Even after decline from 2018 peaks, command-style vocabulary remains structurally persistent in the archive language of censorship instructions."
+    }
+  }
+}
