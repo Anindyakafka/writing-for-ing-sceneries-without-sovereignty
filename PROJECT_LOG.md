@@ -100,3 +100,35 @@ Chronological log of work sessions on this repository. Oldest entries first.
 - Use profiling output to design first D3 visual narrative around censorship pattern clusters
 
 ---
+
+## Session 007 — 13 April 2026
+
+**Built first narrative visualization pipeline for censorboard data.**
+
+- Reviewed upstream censorboard pipeline/schema signals (raw + processed datasets)
+- Added `scripts/build_censorboard_story_data.py` to generate D3-ready narrative aggregates
+- Added first publication-style D3 view at `assets/visuals/censorboard/story.html`
+- Encoded three core panels for political storytelling:
+	- Yearly censorship pressure (volume + intensity)
+	- Language burden (modified seconds per certificate)
+	- Action x content matrix (recurring censorship logic)
+
+**Intentions set this session:**
+- Download release CSVs and run story-data builder
+- Tune panel annotations after seeing live distributions
+- Add a fourth panel on recurring censored terms over time if text quality permits
+
+---
+
+## Session 008 — 13 April 2026
+
+**Extended visual narrative depth with textual pattern panel.**
+
+- Added fourth D3 panel to `assets/visuals/censorboard/story.html` for recurring censored lexicon by year
+- Aligned panel with publication narrative: not just volume of cuts, but language of regulation over time
+
+**Intentions set this session:**
+- Validate token quality and stopword filters once full CSV assets are loaded
+- Annotate key years/spikes directly in visual copy for publication use
+
+---

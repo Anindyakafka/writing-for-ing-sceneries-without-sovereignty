@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Censorboard Story Atlas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+  <script type="module" src="https://cdn.jsdelivr.net/npm/d3@7/+esm"></script>
+  <style>
+    :root {
+      --bg: #f4efe6;
+      --ink: #1f1a17;
+      --muted: #665f58;
+      --accent: #9b1d20;
+      --accent-soft: #d65a5d;
+      --paper: #fffaf2;
+      --line: #d8cfc2;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(1200px 400px at 85% -5%, rgba(155,29,32,0.12), transparent 60%),
+        radial-gradient(900px 380px at 0% 100%, rgba(24,77,71,0.12), transparent 60%),
+        var(--bg);
+      color: var(--ink);
+      font-family: "Space Grotesk", sans-serif;
+      line-height: 1.45;
+    }
+
+    .wrap {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 32px 20px 80px;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: "Newsreader", serif;
+      font-size: clamp(2rem, 4vw, 3.6rem);
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      max-width: 15ch;
+    }
+
+    .deck {
+      margin-top: 10px;
+      max-width: 65ch;
+      color: var(--muted);
+      font-size: 1.02rem;
+    }
+
+    .panel {
+      background: linear-gradient(180deg, var(--paper), #f8f2e8);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 14px 14px 18px;
+      margin-top: 18px;
+      box-shadow: 0 8px 20px rgba(31, 26, 23, 0.06);
+    }
+
+    .panel h2 {
+      margin: 0 0 6px;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+    }
+
+    .panel p {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    svg { width: 100%; height: auto; display: block; }
+
+    .axis path, .axis line { stroke: #b9afa2; }
+    .axis text { fill: #6b6258; font-size: 11px; }
+
+    .note {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .empty {
+      padding: 18px;
+      border: 1px dashed #bfad97;
+      border-radius: 10px;
+      color: #6b6258;
+      font-size: 0.9rem;
+      background: rgba(255,255,255,0.5);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>The Administrative Texture of Censorship</h1>
+    <p class="deck">This visual draft translates cuts into pressure, language into burden, and categories into recurring control logic. It is designed as narrative evidence, not a neutral dashboard.</p>
+
+    <section class="panel">
+      <h2>Panel A: Censorship Pressure Over Time</h2>
+      <p>Total modified duration by certification year, with per-certificate intensity.</p>
+      <div id="yearly"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Panel B: Language Burden</h2>
+      <p>Average modified seconds per certified title by language.</p>
+      <div id="languages"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Panel C: Action x Content Heatmap</h2>
+      <p>Where action type and content category repeatedly co-occur.</p>
+      <div id="matrix"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Panel D: Recurring Censored Lexicon</h2>
+      <p>Most repeated tokens in modification descriptions, grouped by year.</p>
+      <div id="words"></div>
+    </section>
+
+    <div class="note" id="source-note"></div>
+  </div>
+
+  <script type="module">
+    import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+
+    const path = "../../../data/censorboard/processed/story_data.json";
+
+    function empty(node, msg) {
+      node.innerHTML = `<div class="empty">${msg}</div>`;
+    }
+
+    function drawYearly(node, rows) {
+      if (!rows || !rows.length) {
+        empty(node, "No yearly data found. Run scripts/build_censorboard_story_data.py after downloading release CSV files.");
+        return;
+      }
+
+      const w = 980, h = 320, m = { t: 24, r: 18, b: 36, l: 52 };
+      const svg = d3.select(node).append("svg").attr("viewBox", `0 0 ${w} ${h}`);
+      const x = d3.scaleLinear().domain(d3.extent(rows, d => +d.year)).range([m.l, w - m.r]);
+      const y = d3.scaleLinear().domain([0, d3.max(rows, d => +d.modified_seconds) || 1]).nice().range([h - m.b, m.t]);
+      const y2 = d3.scaleLinear().domain([0, d3.max(rows, d => +d.seconds_per_certificate) || 1]).nice().range([h - m.b, m.t]);
+
+      const area = d3.area()
+        .x(d => x(+d.year))
+        .y0(h - m.b)
+        .y1(d => y(+d.modified_seconds))
+        .curve(d3.curveMonotoneX);
+
+      const line = d3.line()
+        .x(d => x(+d.year))
+        .y(d => y2(+d.seconds_per_certificate))
+        .curve(d3.curveMonotoneX);
+
+      svg.append("path")
+        .datum(rows)
+        .attr("fill", "rgba(155,29,32,0.24)")
+        .attr("d", area);
+
+      svg.append("path")
+        .datum(rows)
+        .attr("fill", "none")
+        .attr("stroke", "#9b1d20")
+        .attr("stroke-width", 2.2)
+        .attr("d", line);
+
+      svg.append("g").attr("class", "axis").attr("transform", `translate(0,${h - m.b})`).call(d3.axisBottom(x).tickFormat(d3.format("d")));
+      svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5));
+      svg.append("g").attr("class", "axis").attr("transform", `translate(${w - m.r},0)`).call(d3.axisRight(y2).ticks(5));
+    }
+
+    function drawLanguages(node, rows) {
+      if (!rows || !rows.length) {
+        empty(node, "No language burden data available.");
+        return;
+      }
+
+      const data = rows.slice(0, 18).sort((a, b) => (+a.seconds_per_certificate) - (+b.seconds_per_certificate));
+      const w = 980, h = Math.max(360, data.length * 24 + 40), m = { t: 18, r: 20, b: 30, l: 170 };
+      const svg = d3.select(node).append("svg").attr("viewBox", `0 0 ${w} ${h}`);
+
+      const x = d3.scaleLinear().domain([0, d3.max(data, d => +d.seconds_per_certificate) || 1]).nice().range([m.l, w - m.r]);
+      const y = d3.scaleBand().domain(data.map(d => d.language)).range([m.t, h - m.b]).padding(0.24);
+
+      svg.append("g")
+        .selectAll("rect")
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr("x", m.l)
+        .attr("y", d => y(d.language))
+        .attr("width", d => x(+d.seconds_per_certificate) - m.l)
+        .attr("height", y.bandwidth())
+        .attr("rx", 5)
+        .attr("fill", "#cc4f52");
+
+      svg.append("g").attr("class", "axis").attr("transform", `translate(0,${h - m.b})`).call(d3.axisBottom(x).ticks(6));
+      svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y));
+    }
+
+    function drawMatrix(node, rows) {
+      if (!rows || !rows.length) {
+        empty(node, "No action/content matrix yet. This panel needs ai_action + ai_content_types or equivalent columns.");
+        return;
+      }
+
+      const top = rows.slice(0, 120);
+      const actions = Array.from(new Set(top.map(d => d.action))).slice(0, 12);
+      const contents = Array.from(new Set(top.map(d => d.content))).slice(0, 12);
+      const filtered = top.filter(d => actions.includes(d.action) && contents.includes(d.content));
+
+      const w = 980, h = 420, m = { t: 30, r: 20, b: 110, l: 200 };
+      const svg = d3.select(node).append("svg").attr("viewBox", `0 0 ${w} ${h}`);
+
+      const x = d3.scaleBand().domain(contents).range([m.l, w - m.r]).padding(0.08);
+      const y = d3.scaleBand().domain(actions).range([m.t, h - m.b]).padding(0.08);
+      const c = d3.scaleSequential(d3.interpolateYlOrRd).domain([0, d3.max(filtered, d => +d.count) || 1]);
+
+      svg.append("g")
+        .selectAll("rect")
+        .data(filtered)
+        .enter()
+        .append("rect")
+        .attr("x", d => x(d.content))
+        .attr("y", d => y(d.action))
+        .attr("width", x.bandwidth())
+        .attr("height", y.bandwidth())
+        .attr("fill", d => c(+d.count));
+
+      svg.append("g").attr("class", "axis").attr("transform", `translate(0,${h - m.b})`).call(d3.axisBottom(x)).selectAll("text")
+        .attr("transform", "rotate(-35)")
+        .style("text-anchor", "end");
+
+      svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y));
+    }
+
+    function drawWords(node, rows) {
+      if (!rows || !rows.length) {
+        empty(node, "No textual token data available.");
+        return;
+      }
+
+      const top = rows
+        .slice()
+        .sort((a, b) => (+b.count) - (+a.count))
+        .slice(0, 140);
+
+      const years = Array.from(new Set(top.map(d => +d.year))).sort((a, b) => a - b);
+      const words = Array.from(new Set(top.map(d => d.word))).slice(0, 18);
+      const filtered = top.filter(d => years.includes(+d.year) && words.includes(d.word));
+
+      const w = 980, h = 460, m = { t: 20, r: 16, b: 44, l: 170 };
+      const svg = d3.select(node).append("svg").attr("viewBox", `0 0 ${w} ${h}`);
+
+      const x = d3.scaleBand().domain(years).range([m.l, w - m.r]).padding(0.1);
+      const y = d3.scaleBand().domain(words).range([m.t, h - m.b]).padding(0.14);
+      const c = d3.scaleSequential(d3.interpolateOrRd).domain([0, d3.max(filtered, d => +d.count) || 1]);
+
+      svg.append("g")
+        .selectAll("rect")
+        .data(filtered)
+        .enter()
+        .append("rect")
+        .attr("x", d => x(+d.year))
+        .attr("y", d => y(d.word))
+        .attr("width", x.bandwidth())
+        .attr("height", y.bandwidth())
+        .attr("rx", 3)
+        .attr("fill", d => c(+d.count));
+
+      svg.append("g").attr("class", "axis").attr("transform", `translate(0,${h - m.b})`).call(d3.axisBottom(x).tickFormat(d3.format("d")));
+      svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y));
+    }
+
+    fetch(path)
+      .then(r => r.json())
+      .then(payload => {
+        drawYearly(document.getElementById("yearly"), payload?.panels?.yearly_pressure || []);
+        drawLanguages(document.getElementById("languages"), payload?.panels?.language_burden || []);
+        drawMatrix(document.getElementById("matrix"), payload?.panels?.action_content_matrix || []);
+        drawWords(document.getElementById("words"), payload?.panels?.censored_words || []);
+        const source = (payload?.source_files || []).join(" | ");
+        document.getElementById("source-note").textContent = source ? `Source: ${source}` : "";
+      })
+      .catch(() => {
+        empty(document.getElementById("yearly"), "Story data file not found. Build data first.");
+        empty(document.getElementById("languages"), "Story data file not found. Build data first.");
+        empty(document.getElementById("matrix"), "Story data file not found. Build data first.");
+        empty(document.getElementById("words"), "Story data file not found. Build data first.");
+      });
+  </script>
+</body>
+</html>
