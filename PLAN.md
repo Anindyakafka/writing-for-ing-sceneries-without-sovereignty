@@ -63,6 +63,19 @@ Not planned — but left open. If a poem emerges from  the research or the writi
 | Farmers' movement article | UAPA data, land acquisition cases, protest deaths | External repo TBD |
 | Scenery essay | Forest rights rejection rate, conservation displacement | MoTA reports, WII data |
 
+### High-Priority Rare Data (New)
+
+- West Bengal 2002 electoral roll PDFs (Bengali, non-searchable) for historical baseline
+- West Bengal 2026 voter-deletion lists to trace politically targeted exclusion patterns
+- Film censorboard decision data (cuts, certifications, refusals) to track cultural governance
+
+### Extraction Challenges and Proposed Pipeline
+
+- Problem: scanned Bengali PDFs are not reliably machine-readable
+- Pipeline: OCR (Tesseract + Bengali language pack) -> text cleanup -> structured parsing -> manual validation sample
+- Validation target: at least 95% field-level accuracy on a stratified page sample before full analysis
+- Output format: clean CSV with source page references for auditability
+
 Data repos will be created/linked separately and referenced in `data/README.md`.
 
 ---
@@ -73,8 +86,9 @@ For data-driven articles, planned outputs:
 - Choropleth or dot maps (demolition geography)
 - Small multiples / timelines (language decline over census decades)
 - Bar/density charts (land acquisition cases by state, UAPA charges)
+- Annotation-rich D3 visual essays (interactive timelines, event strips, censorship clusters)
 
-Tools: Python (pandas, geopandas, matplotlib/plotly) — outputs into `assets/visuals/`
+Tools: Python (pandas, geopandas) for processing; D3.js for publication-facing visuals — outputs into `assets/visuals/`
 
 ---
 
