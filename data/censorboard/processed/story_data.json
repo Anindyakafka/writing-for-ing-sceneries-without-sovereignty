@@ -1,0 +1,54 @@
+{
+  "source_mode": "preview_mock",
+  "source_files": [
+    "preview/mock-story-data"
+  ],
+  "panels": {
+    "yearly_pressure": [
+      {"year": 2018, "modified_seconds": 9200, "rows": 410, "certificates": 190, "cuts": 340, "seconds_per_certificate": 48.4},
+      {"year": 2019, "modified_seconds": 11800, "rows": 510, "certificates": 220, "cuts": 430, "seconds_per_certificate": 53.6},
+      {"year": 2020, "modified_seconds": 9600, "rows": 430, "certificates": 205, "cuts": 360, "seconds_per_certificate": 46.8},
+      {"year": 2021, "modified_seconds": 14900, "rows": 620, "certificates": 240, "cuts": 530, "seconds_per_certificate": 62.1},
+      {"year": 2022, "modified_seconds": 16350, "rows": 690, "certificates": 248, "cuts": 590, "seconds_per_certificate": 65.9},
+      {"year": 2023, "modified_seconds": 17220, "rows": 710, "certificates": 252, "cuts": 625, "seconds_per_certificate": 68.3},
+      {"year": 2024, "modified_seconds": 16710, "rows": 700, "certificates": 258, "cuts": 612, "seconds_per_certificate": 64.8}
+    ],
+    "language_burden": [
+      {"language": "Urdu", "modified_seconds": 5400, "certificates": 52, "rows": 170, "seconds_per_certificate": 103.8},
+      {"language": "Bengali", "modified_seconds": 8700, "certificates": 102, "rows": 280, "seconds_per_certificate": 85.3},
+      {"language": "Malayalam", "modified_seconds": 9200, "certificates": 120, "rows": 310, "seconds_per_certificate": 76.7},
+      {"language": "Tamil", "modified_seconds": 10800, "certificates": 155, "rows": 390, "seconds_per_certificate": 69.7},
+      {"language": "Hindi", "modified_seconds": 23800, "certificates": 390, "rows": 1020, "seconds_per_certificate": 61.0},
+      {"language": "Marathi", "modified_seconds": 5800, "certificates": 105, "rows": 200, "seconds_per_certificate": 55.2},
+      {"language": "Kannada", "modified_seconds": 5100, "certificates": 98, "rows": 185, "seconds_per_certificate": 52.0}
+    ],
+    "action_content_matrix": [
+      {"action": "deletion", "content": "religion", "count": 82},
+      {"action": "deletion", "content": "violence", "count": 74},
+      {"action": "deletion", "content": "sexual", "count": 69},
+      {"action": "replacement", "content": "religion", "count": 61},
+      {"action": "replacement", "content": "profanity", "count": 88},
+      {"action": "mute", "content": "profanity", "count": 95},
+      {"action": "mute", "content": "political", "count": 55},
+      {"action": "blur", "content": "symbols", "count": 47},
+      {"action": "deletion", "content": "political", "count": 52},
+      {"action": "replacement", "content": "sexual", "count": 39},
+      {"action": "insert", "content": "disclaimer", "count": 58},
+      {"action": "mute", "content": "religion", "count": 44}
+    ],
+    "censored_words": [
+      {"year": 2021, "word": "allah", "count": 18},
+      {"year": 2021, "word": "riot", "count": 14},
+      {"year": 2021, "word": "beef", "count": 12},
+      {"year": 2022, "word": "allah", "count": 21},
+      {"year": 2022, "word": "riot", "count": 17},
+      {"year": 2022, "word": "temple", "count": 13},
+      {"year": 2023, "word": "allah", "count": 24},
+      {"year": 2023, "word": "kashmir", "count": 19},
+      {"year": 2023, "word": "riot", "count": 16},
+      {"year": 2024, "word": "allah", "count": 20},
+      {"year": 2024, "word": "kashmir", "count": 18},
+      {"year": 2024, "word": "azadi", "count": 15}
+    ]
+  }
+}

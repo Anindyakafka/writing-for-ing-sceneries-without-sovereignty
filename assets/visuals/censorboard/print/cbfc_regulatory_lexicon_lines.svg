@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+  <rect width="1800" height="1100" fill="#f9f4eb"/>
+  <text x="90" y="90" font-family="Georgia, serif" font-size="44" fill="#1f1a17">Regulatory Lexicon Over Time</text>
+  <text x="90" y="132" font-family="Arial, sans-serif" font-size="24" fill="#5c534a">Frequency of recurrent terms in modification descriptions (2018-2025)</text>
+
+  <line x1="140" y1="900" x2="1640" y2="900" stroke="#5a5045" stroke-width="2"/>
+  <line x1="140" y1="210" x2="140" y2="900" stroke="#5a5045" stroke-width="2"/>
+
+  <text x="130" y="905" font-family="Arial" font-size="18" fill="#4d443d">0</text>
+  <text x="110" y="730" font-family="Arial" font-size="18" fill="#4d443d">800</text>
+  <text x="100" y="560" font-family="Arial" font-size="18" fill="#4d443d">1600</text>
+  <text x="100" y="390" font-family="Arial" font-size="18" fill="#4d443d">2400</text>
+  <text x="100" y="220" font-family="Arial" font-size="18" fill="#4d443d">3200</text>
+
+  <text x="250" y="940" font-family="Arial" font-size="20">2018</text>
+  <text x="430" y="940" font-family="Arial" font-size="20">2019</text>
+  <text x="610" y="940" font-family="Arial" font-size="20">2020</text>
+  <text x="790" y="940" font-family="Arial" font-size="20">2021</text>
+  <text x="970" y="940" font-family="Arial" font-size="20">2022</text>
+  <text x="1150" y="940" font-family="Arial" font-size="20">2023</text>
+  <text x="1330" y="940" font-family="Arial" font-size="20">2024</text>
+  <text x="1510" y="940" font-family="Arial" font-size="20">2025</text>
+
+  <polyline fill="none" stroke="#8f1f1b" stroke-width="6" points="260,213 440,210 620,372 800,434 980,439 1160,447 1340,398 1520,711"/>
+  <polyline fill="none" stroke="#1f5a8a" stroke-width="6" points="260,356 440,367 620,447 800,462 980,394 1160,445 1340,487 1520,762"/>
+  <polyline fill="none" stroke="#2f7d4b" stroke-width="6" points="260,314 440,247 620,337 800,452 980,421 1160,532 1340,516 1520,768"/>
+
+  <circle cx="260" cy="213" r="5" fill="#8f1f1b"/><circle cx="440" cy="210" r="5" fill="#8f1f1b"/><circle cx="620" cy="372" r="5" fill="#8f1f1b"/><circle cx="800" cy="434" r="5" fill="#8f1f1b"/><circle cx="980" cy="439" r="5" fill="#8f1f1b"/><circle cx="1160" cy="447" r="5" fill="#8f1f1b"/><circle cx="1340" cy="398" r="5" fill="#8f1f1b"/><circle cx="1520" cy="711" r="5" fill="#8f1f1b"/>
+  <circle cx="260" cy="356" r="5" fill="#1f5a8a"/><circle cx="440" cy="367" r="5" fill="#1f5a8a"/><circle cx="620" cy="447" r="5" fill="#1f5a8a"/><circle cx="800" cy="462" r="5" fill="#1f5a8a"/><circle cx="980" cy="394" r="5" fill="#1f5a8a"/><circle cx="1160" cy="445" r="5" fill="#1f5a8a"/><circle cx="1340" cy="487" r="5" fill="#1f5a8a"/><circle cx="1520" cy="762" r="5" fill="#1f5a8a"/>
+  <circle cx="260" cy="314" r="5" fill="#2f7d4b"/><circle cx="440" cy="247" r="5" fill="#2f7d4b"/><circle cx="620" cy="337" r="5" fill="#2f7d4b"/><circle cx="800" cy="452" r="5" fill="#2f7d4b"/><circle cx="980" cy="421" r="5" fill="#2f7d4b"/><circle cx="1160" cy="532" r="5" fill="#2f7d4b"/><circle cx="1340" cy="516" r="5" fill="#2f7d4b"/><circle cx="1520" cy="768" r="5" fill="#2f7d4b"/>
+
+  <rect x="1180" y="250" width="22" height="22" fill="#8f1f1b"/><text x="1210" y="267" font-family="Arial" font-size="22">muted</text>
+  <rect x="1180" y="290" width="22" height="22" fill="#1f5a8a"/><text x="1210" y="307" font-family="Arial" font-size="22">word</text>
+  <rect x="1180" y="330" width="22" height="22" fill="#2f7d4b"/><text x="1210" y="347" font-family="Arial" font-size="22">visuals</text>
+
+  <text x="90" y="1015" font-family="Arial" font-size="22" fill="#3f372f">These terms dominate the archive language of censorship instructions, indicating procedural standardization of intervention vocabulary.</text>
+</svg>

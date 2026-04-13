@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+  <rect width="1800" height="1100" fill="#f7f1e6"/>
+  <text x="90" y="90" font-family="Georgia, serif" font-size="46" fill="#1f1a17">Censorship Pressure Over Time (CBFC Release Data)</text>
+  <text x="90" y="132" font-family="Arial, sans-serif" font-size="24" fill="#5c534a">Total modified seconds per year, 2017-2025 (computed from metadata.csv + modifications.csv)</text>
+
+  <line x1="120" y1="900" x2="1670" y2="900" stroke="#5a5045" stroke-width="2"/>
+  <line x1="120" y1="220" x2="120" y2="900" stroke="#5a5045" stroke-width="2"/>
+
+  <rect x="190" y="857" width="95" height="43" fill="#b55d3f"/>
+  <rect x="350" y="554" width="95" height="346" fill="#b55d3f"/>
+  <rect x="510" y="531" width="95" height="369" fill="#b55d3f"/>
+  <rect x="670" y="576" width="95" height="324" fill="#b55d3f"/>
+  <rect x="830" y="220" width="95" height="680" fill="#8f1f1b"/>
+  <rect x="990" y="224" width="95" height="676" fill="#8f1f1b"/>
+  <rect x="1150" y="467" width="95" height="433" fill="#b55d3f"/>
+  <rect x="1310" y="464" width="95" height="436" fill="#b55d3f"/>
+  <rect x="1470" y="796" width="95" height="104" fill="#b55d3f"/>
+
+  <text x="200" y="940" font-family="Arial" font-size="20" fill="#2e2823">2017</text>
+  <text x="360" y="940" font-family="Arial" font-size="20" fill="#2e2823">2018</text>
+  <text x="520" y="940" font-family="Arial" font-size="20" fill="#2e2823">2019</text>
+  <text x="680" y="940" font-family="Arial" font-size="20" fill="#2e2823">2020</text>
+  <text x="840" y="940" font-family="Arial" font-size="20" fill="#2e2823">2021</text>
+  <text x="1000" y="940" font-family="Arial" font-size="20" fill="#2e2823">2022</text>
+  <text x="1160" y="940" font-family="Arial" font-size="20" fill="#2e2823">2023</text>
+  <text x="1320" y="940" font-family="Arial" font-size="20" fill="#2e2823">2024</text>
+  <text x="1480" y="940" font-family="Arial" font-size="20" fill="#2e2823">2025</text>
+
+  <text x="80" y="905" font-family="Arial" font-size="18" fill="#4d443d">0</text>
+  <text x="56" y="730" font-family="Arial" font-size="18" fill="#4d443d">120k</text>
+  <text x="56" y="560" font-family="Arial" font-size="18" fill="#4d443d">240k</text>
+  <text x="56" y="390" font-family="Arial" font-size="18" fill="#4d443d">360k</text>
+  <text x="56" y="225" font-family="Arial" font-size="18" fill="#4d443d">460k</text>
+
+  <polyline fill="none" stroke="#223f5f" stroke-width="5" points="237,818 397,778 557,777 717,721 877,578 1037,644 1197,708 1357,746 1517,801"/>
+  <circle cx="237" cy="818" r="5" fill="#223f5f"/>
+  <circle cx="397" cy="778" r="5" fill="#223f5f"/>
+  <circle cx="557" cy="777" r="5" fill="#223f5f"/>
+  <circle cx="717" cy="721" r="5" fill="#223f5f"/>
+  <circle cx="877" cy="578" r="5" fill="#223f5f"/>
+  <circle cx="1037" cy="644" r="5" fill="#223f5f"/>
+  <circle cx="1197" cy="708" r="5" fill="#223f5f"/>
+  <circle cx="1357" cy="746" r="5" fill="#223f5f"/>
+  <circle cx="1517" cy="801" r="5" fill="#223f5f"/>
+
+  <text x="90" y="1015" font-family="Arial" font-size="22" fill="#3f372f">Blue line: seconds per certificate (intensity). Peak intensity appears in 2021-2022.</text>
+</svg>

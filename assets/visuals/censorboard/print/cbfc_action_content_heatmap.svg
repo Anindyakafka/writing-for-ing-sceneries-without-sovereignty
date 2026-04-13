@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <rect width="1600" height="1100" fill="#f6efe4"/>
+  <text x="90" y="90" font-family="Georgia, serif" font-size="42" fill="#1f1a17">Action x Content Matrix of Cuts</text>
+  <text x="90" y="130" font-family="Arial, sans-serif" font-size="22" fill="#5c534a">Computed from modification descriptions (keyword-coded content classes)</text>
+
+  <text x="500" y="220" font-family="Arial" font-size="24" fill="#2e2823">Violence</text>
+  <text x="700" y="220" font-family="Arial" font-size="24" fill="#2e2823">Sexual</text>
+  <text x="900" y="220" font-family="Arial" font-size="24" fill="#2e2823">Profanity</text>
+  <text x="1110" y="220" font-family="Arial" font-size="24" fill="#2e2823">Religion</text>
+  <text x="1310" y="220" font-family="Arial" font-size="24" fill="#2e2823">Political</text>
+
+  <text x="180" y="340" font-family="Arial" font-size="26" fill="#2e2823">Deletion</text>
+  <text x="180" y="530" font-family="Arial" font-size="26" fill="#2e2823">Replacement</text>
+  <text x="180" y="720" font-family="Arial" font-size="26" fill="#2e2823">Insertion</text>
+
+  <rect x="470" y="260" width="160" height="130" fill="#8f1f1b"/>
+  <rect x="670" y="260" width="160" height="130" fill="#a2342a"/>
+  <rect x="870" y="260" width="160" height="130" fill="#a93d2f"/>
+  <rect x="1070" y="260" width="160" height="130" fill="#e1a083"/>
+  <rect x="1270" y="260" width="160" height="130" fill="#e6ad93"/>
+
+  <rect x="470" y="450" width="160" height="130" fill="#f3d8c8"/>
+  <rect x="670" y="450" width="160" height="130" fill="#f7e8dd"/>
+  <rect x="870" y="450" width="160" height="130" fill="#f7e8dd"/>
+  <rect x="1070" y="450" width="160" height="130" fill="#f1d2c0"/>
+  <rect x="1270" y="450" width="160" height="130" fill="#f7e8dd"/>
+
+  <rect x="470" y="640" width="160" height="130" fill="#edc2ac"/>
+  <rect x="670" y="640" width="160" height="130" fill="#efc8b3"/>
+  <rect x="870" y="640" width="160" height="130" fill="#f7e8dd"/>
+  <rect x="1070" y="640" width="160" height="130" fill="#f7e8dd"/>
+  <rect x="1270" y="640" width="160" height="130" fill="#f7e8dd"/>
+
+  <text x="520" y="335" font-family="Arial" font-size="28" fill="#fff">7582</text>
+  <text x="720" y="335" font-family="Arial" font-size="28" fill="#fff">5097</text>
+  <text x="920" y="335" font-family="Arial" font-size="28" fill="#fff">4876</text>
+  <text x="1120" y="335" font-family="Arial" font-size="28" fill="#513d32">756</text>
+  <text x="1330" y="335" font-family="Arial" font-size="28" fill="#513d32">497</text>
+
+  <text x="525" y="525" font-family="Arial" font-size="28" fill="#513d32">149</text>
+  <text x="1120" y="525" font-family="Arial" font-size="28" fill="#513d32">133</text>
+
+  <text x="525" y="715" font-family="Arial" font-size="28" fill="#513d32">312</text>
+  <text x="725" y="715" font-family="Arial" font-size="28" fill="#513d32">277</text>
+
+  <text x="90" y="960" font-family="Arial" font-size="22" fill="#3f372f">Dominant pattern: deletion-focused interventions, especially around violence, sexual content, and profanity. Religion and political content appear lower in count but remain non-trivial.</text>
+</svg>

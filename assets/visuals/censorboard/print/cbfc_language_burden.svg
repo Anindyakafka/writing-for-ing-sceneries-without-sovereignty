@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+  <rect width="1800" height="1200" fill="#f8f3eb"/>
+  <text x="90" y="90" font-family="Georgia, serif" font-size="46" fill="#1f1a17">Language Burden of Censorship</text>
+  <text x="90" y="132" font-family="Arial, sans-serif" font-size="24" fill="#5c534a">Modified seconds per certificate (selected languages, real computed aggregates)</text>
+
+  <line x1="360" y1="1040" x2="1600" y2="1040" stroke="#5a5045" stroke-width="2"/>
+
+  <text x="110" y="240" font-family="Arial" font-size="26" fill="#2e2823">Bhojpuri</text>
+  <rect x="360" y="210" width="900" height="42" fill="#8f1f1b"/>
+  <text x="1275" y="240" font-family="Arial" font-size="22" fill="#2e2823">268.56 s/cert</text>
+
+  <text x="110" y="320" font-family="Arial" font-size="26" fill="#2e2823">Bengali</text>
+  <rect x="360" y="290" width="760" height="42" fill="#a2342a"/>
+  <text x="1135" y="320" font-family="Arial" font-size="22" fill="#2e2823">227.04</text>
+
+  <text x="110" y="400" font-family="Arial" font-size="26" fill="#2e2823">Odia</text>
+  <rect x="360" y="370" width="597" height="42" fill="#b24734"/>
+  <text x="972" y="400" font-family="Arial" font-size="22" fill="#2e2823">178.18</text>
+
+  <text x="110" y="480" font-family="Arial" font-size="26" fill="#2e2823">Kannada</text>
+  <rect x="360" y="450" width="492" height="42" fill="#bf5d44"/>
+  <text x="867" y="480" font-family="Arial" font-size="22" fill="#2e2823">146.80</text>
+
+  <text x="110" y="560" font-family="Arial" font-size="26" fill="#2e2823">Hindi</text>
+  <rect x="360" y="530" width="491" height="42" fill="#bf5d44"/>
+  <text x="866" y="560" font-family="Arial" font-size="22" fill="#2e2823">146.70</text>
+
+  <text x="110" y="640" font-family="Arial" font-size="26" fill="#2e2823">Marathi</text>
+  <rect x="360" y="610" width="444" height="42" fill="#c96f52"/>
+  <text x="819" y="640" font-family="Arial" font-size="22" fill="#2e2823">132.50</text>
+
+  <text x="110" y="720" font-family="Arial" font-size="26" fill="#2e2823">Malayalam</text>
+  <rect x="360" y="690" width="425" height="42" fill="#cd7858"/>
+  <text x="800" y="720" font-family="Arial" font-size="22" fill="#2e2823">126.89</text>
+
+  <text x="110" y="800" font-family="Arial" font-size="26" fill="#2e2823">Tamil</text>
+  <rect x="360" y="770" width="331" height="42" fill="#d88968"/>
+  <text x="706" y="800" font-family="Arial" font-size="22" fill="#2e2823">98.93</text>
+
+  <text x="110" y="880" font-family="Arial" font-size="26" fill="#2e2823">Telugu</text>
+  <rect x="360" y="850" width="274" height="42" fill="#df9979"/>
+  <text x="649" y="880" font-family="Arial" font-size="22" fill="#2e2823">81.75</text>
+
+  <text x="110" y="960" font-family="Arial" font-size="26" fill="#2e2823">English</text>
+  <rect x="360" y="930" width="246" height="42" fill="#e7a98b"/>
+  <text x="621" y="960" font-family="Arial" font-size="22" fill="#2e2823">73.57</text>
+
+  <text x="90" y="1110" font-family="Arial" font-size="22" fill="#3f372f">Note: Hindustani and Urdu show very high values but with lower certificate counts and potential metadata artefacts; kept separate for methodological caution.</text>
+</svg>

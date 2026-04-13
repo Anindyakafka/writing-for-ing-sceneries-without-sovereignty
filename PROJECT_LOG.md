@@ -132,3 +132,33 @@ Chronological log of work sessions on this repository. Oldest entries first.
 - Annotate key years/spikes directly in visual copy for publication use
 
 ---
+
+## Session 009 — 13 April 2026
+
+**Ran first visual preview in browser.**
+
+- Added `data/censorboard/processed/story_data.json` with preview mock values so all D3 panels render
+- Opened `assets/visuals/censorboard/story.html` in integrated browser for immediate graph preview
+
+**Intentions set this session:**
+- Replace preview mock with real release-derived aggregates once local CSV fetch is executed
+
+---
+
+## Session 010 — 13 April 2026
+
+**Switched from preview to real computed print imagery.**
+
+- Computed aggregates from real release files (`metadata.csv`, `modifications.csv`) via streaming pipeline
+- Saved computed dataset snapshot at `data/censorboard/processed/real_computed_story_data.json`
+- Generated print-focused static SVG visuals (no HTML dependency):
+	- `assets/visuals/censorboard/print/cbfc_yearly_censorship_pressure.svg`
+	- `assets/visuals/censorboard/print/cbfc_language_burden.svg`
+	- `assets/visuals/censorboard/print/cbfc_action_content_heatmap.svg`
+	- `assets/visuals/censorboard/print/cbfc_regulatory_lexicon_lines.svg`
+
+**Intentions set this session:**
+- Iterate typography, annotation density, and panel hierarchy for book-layout compatibility
+- Export publication variants (CMYK-ready or editor-specified dimensions) if required
+
+---
