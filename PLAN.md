@@ -20,7 +20,7 @@ The "-ing" in the title = **ongoing processes**: enclosing, extracting, mapping,
 
 ## What I Can Contribute
 
-### 1. Data-Driven Long-Form Article (Primary Contribution)
+### 1. Data-Driven Long-Form Article (Collaborative Contribution)
 
 **Possible angle:** *The Cartography of Eviction — What demolition data tells us about who the city is for*
 
@@ -39,7 +39,7 @@ The "-ing" in the title = **ongoing processes**: enclosing, extracting, mapping,
 
 ---
 
-### 2. Essay (Secondary Contribution)
+### 2. Essay (Collaborative Essay Contribution)
 
 **Possible angle:** *Scenery as Weapon: How aesthetics and conservation erase political life*
 - A shorter, reflective piece on how landscape representation (nature photography, heritage tourism, environmental conservation) functions to de-politicise land — producing the "sceneries without sovereignty" the publication names

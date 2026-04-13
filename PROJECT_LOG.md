@@ -58,3 +58,45 @@ Chronological log of work sessions on this repository. Oldest entries first.
 - Keep analysis auditable with page-level references from scanned sources
 
 ---
+
+## Session 004 — 13 April 2026
+
+**Corrected contribution framing.**
+
+- Updated planning language to clearly position writing role as collaborator
+- Replaced "Primary Contribution" framing with "Collaborative Contribution" in `PLAN.md`
+
+**Intentions set this session:**
+- Keep all future drafts and metadata aligned with collaborator role in the publication
+
+---
+
+## Session 005 — 13 April 2026
+
+**Expanded essay into section folders and prepared censorboard ingestion code.**
+
+- Split `scenery-as-weapon` essay into heading-wise folders with expanded drafts
+- Added section workspace at `drafts/essays/scenery-as-weapon-sections/`
+- Added local censorboard integration path under `data/censorboard/`
+- Added script `scripts/fetch_censorboard_releases.py` to download release assets from `Anindyakafka/CensorBoard_records`
+- Updated `data/README.md` to register the censorboard source repo
+
+**Intentions set this session:**
+- Use section files for deep edits before reconciling back into one essay draft
+- Start dataset profiling immediately after first release fetch
+
+---
+
+## Session 006 — 13 April 2026
+
+**Operationalized censorboard repository integration.**
+
+- Confirmed upstream release structure for `Anindyakafka/CensorBoard_records` (tags: `Data`, `Raw`)
+- Documented known release assets in `data/censorboard/README.md`
+- Added `scripts/profile_censorboard_csvs.py` to produce quick schema and missingness summaries after download
+
+**Intentions set this session:**
+- Download selected CSV assets first (`metadata.csv`, `modifications.csv`, `data.csv`) for rapid theme mapping
+- Use profiling output to design first D3 visual narrative around censorship pattern clusters
+
+---

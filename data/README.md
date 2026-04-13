@@ -8,7 +8,7 @@ This file tracks all external data repositories, datasets, and sources used in w
 
 | Repo | Description | Link | Notes |
 |------|-------------|------|-------|
-| *(add data repos here)* | | | |
+| CensorBoard_records | Rare censorboard records and assets (release-based) | https://github.com/Anindyakafka/CensorBoard_records | Integrated locally via `scripts/fetch_censorboard_releases.py` into `data/censorboard/raw/` |
 
 ---
 
