@@ -20,6 +20,8 @@ Tracking reading notes, citations, and reference material relevant to writing fo
 
 ## On Land and Sovereignty
 
+- James C. Scott — *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed* (1998) — on legibility and state simplification of landscapes
+- Denis Cosgrove — *Social Formation and Symbolic Landscape* (1984) — on landscape as cultural construct
 - (add sources as research develops)
 
 ---
@@ -27,13 +29,18 @@ Tracking reading notes, citations, and reference material relevant to writing fo
 ## On Language and Erasure
 
 - Ganesh Devy — *People's Linguistic Survey of India* (general editor)
+- Edward Said — *Orientalism* (1978) — on representation and cultural imperialism
+- Gayatri Chakravorty Spivak — *"Can the Subaltern Speak?"* (1988) — on subaltern voices and epistemic violence
 - (add sources)
 
 ---
 
-## Data Reports
+## On Data and Surveillance
 
-- (link to specific reports as used)
+- Wendy Hui Kyong Chun — *Programmed Visions: Software and Memory* (2011) — on software, memory, and forgetting
+- Safiya Umoja Noble — *Algorithms of Oppression: How Search Engines Reinforce Racism* (2018) — on algorithmic bias and data politics
+- Viktor Mayer-Schönberger — *Delete: The Virtue of Forgetting in the Digital Age* (2009) — on data retention and deletion
+- Kate Crawford — *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence* (2021) — on AI, data extraction, and environmental impact
 
 ---
 
