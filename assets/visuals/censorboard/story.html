@@ -101,29 +101,29 @@
 <body>
   <div class="wrap">
     <h1>The Administrative Texture of Censorship</h1>
-    <p class="deck">This visual draft translates cuts into pressure, language into burden, and categories into recurring control logic. It is designed as narrative evidence, not a neutral dashboard.</p>
+    <p class="deck">Provisional historical aggregate. Source CSVs and the original computation have not been independently reproduced. These charts are for review, not publication or causal inference.</p>
 
     <section class="panel">
       <h2>Panel A: Censorship Pressure Over Time</h2>
-      <p>Total modified duration by certification year, with per-certificate intensity.</p>
+      <p>Recorded modified seconds (left axis) and seconds per represented certificate (right axis). Archive coverage varies; absent years are not zero.</p>
       <div id="yearly"></div>
     </section>
 
     <section class="panel">
       <h2>Panel B: Language Burden</h2>
-      <p>Average modified seconds per certified title by language.</p>
+      <p>Modified seconds per represented certificate by source language label. Hover for certificate counts. Differences do not establish discriminatory treatment.</p>
       <div id="languages"></div>
     </section>
 
     <section class="panel">
       <h2>Panel C: Action x Content Heatmap</h2>
-      <p>Where action type and content category repeatedly co-occur.</p>
+      <p>Selected action-content counts; not all unique interventions. Blank cells are not established zeros.</p>
       <div id="matrix"></div>
     </section>
 
     <section class="panel">
-      <h2>Panel D: Recurring Censored Lexicon</h2>
-      <p>Most repeated tokens in modification descriptions, grouped by year.</p>
+      <h2>Panel D: Selected Description Tokens</h2>
+      <p>Recorded counts of three selected terms in modification descriptions. These are not necessarily words removed from dialogue.</p>
       <div id="words"></div>
     </section>
 
@@ -145,7 +145,7 @@
         return;
       }
 
-      const w = 980, h = 320, m = { t: 24, r: 18, b: 36, l: 52 };
+      const w = 980, h = 320, m = { t: 24, r: 60, b: 36, l: 68 };
       const svg = d3.select(node).append("svg").attr("viewBox", `0 0 ${w} ${h}`);
       const x = d3.scaleLinear().domain(d3.extent(rows, d => +d.year)).range([m.l, w - m.r]);
       const y = d3.scaleLinear().domain([0, d3.max(rows, d => +d.modified_seconds) || 1]).nice().range([h - m.b, m.t]);
@@ -202,7 +202,8 @@
         .attr("width", d => x(+d.seconds_per_certificate) - m.l)
         .attr("height", y.bandwidth())
         .attr("rx", 5)
-        .attr("fill", "#cc4f52");
+        .attr("fill", "#cc4f52")
+        .append("title").text(d => `${d.language}: ${d.certificates} represented certificates; ${d.seconds_per_certificate} seconds/certificate`);
 
       svg.append("g").attr("class", "axis").attr("transform", `translate(0,${h - m.b})`).call(d3.axisBottom(x).ticks(6));
       svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y));
@@ -290,7 +291,7 @@
         drawMatrix(document.getElementById("matrix"), payload?.panels?.action_content_matrix || []);
         drawWords(document.getElementById("words"), payload?.panels?.censored_words || []);
         const source = (payload?.source_files || []).join(" | ");
-        document.getElementById("source-note").textContent = source ? `Source: ${source}` : "";
+        document.getElementById("source-note").textContent = `${payload.review_note || ""} Source: ${source}`;
       })
       .catch(() => {
         empty(document.getElementById("yearly"), "Story data file not found. Build data first.");

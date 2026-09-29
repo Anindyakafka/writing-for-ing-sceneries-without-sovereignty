@@ -2,6 +2,19 @@
 
 Working plan for contributions to *"…ing: Sceneries Without Sovereignty"* (JINN + Nabarun Publication).
 
+## Active plan — 28 September 2026
+
+The selected contribution is **Scenery as Weapon**. A [complete v2 draft](drafts/essays/scenery-as-weapon-v2.md) and [repository review](research/notes/repository-review-2026-09-28.md) now supersede the exploratory plan below.
+
+1. Author reviews the manuscript's voice and scope; confirm editorial length/deadline and citation requirements.
+2. Completed: obtained read access to the author's local WB cleaned CSV and final QA, checked all 5,819,543 rows, and produced aggregate reason counts and a figure. Remaining: reconcile the 1,356 difference from official enumeration totals.
+3. Keep 2002 archival linkage, 2025 ASD extraction, and later 2026 dispositions distinct. The 2025 extraction is complete upstream and uses geometric text extraction, not blanket OCR.
+4. Only add targeting/outcome analysis with comparable denominators, validated geography/linkage, and substantive evidence. Do not infer individual religion/caste from names.
+5. Reproduce CBFC analysis with validated input semantics before using quantitative figures. Legacy print plates are withheld; the active browser preview is explicitly provisional.
+6. Complete Bengali copyedit, source check, and production proof before submission.
+
+**Historical brainstorming follows.** Alternative articles, unvalidated hypotheses, the generic 95% OCR target, and the previous proposed “2026 voter-deletion” workflow below are retained for history and are not the active evidence standard or current task list.
+
 ---
 
 ## What I Understand About This Publication

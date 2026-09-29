@@ -1,5 +1,13 @@
 # Censorboard Dataset Integration
 
+## Review status — 28 September 2026
+
+**Not yet cleared for publication.** Raw CSVs, a checksum manifest, and the exact historical streaming aggregation are absent. `real_computed_story_data.json` is preserved as a historical snapshot attributed to the upstream release, not a freshly reproduced analysis. The browser's former mock data is replaced with a clearly labelled adapter of that snapshot. Run `python scripts/prepare_reviewed_story_snapshot.py` to rebuild the adapter and descriptive observations.
+
+All seven legacy SVGs are marked unverified; the governance pie and disparity bars additionally have invalid proportional encodings. See [the full review](../../research/notes/repository-review-2026-09-28.md) before reuse. Corrected selected-matrix action shares are deletion 94.26%, replacement 3.27%, insertion 2.47%; these do not establish population-wide action rates. Token frequencies describe modification text, not necessarily censored dialogue. Causal claims of hardening and language discrimination are unsupported by these aggregates alone.
+
+The fetching/building instructions below describe the existing pipeline, which requires the schema, merge, denominator, duration, and reproducibility fixes recorded in the review before publication use.
+
 This folder tracks integration of data from:
 https://github.com/Anindyakafka/CensorBoard_records
 

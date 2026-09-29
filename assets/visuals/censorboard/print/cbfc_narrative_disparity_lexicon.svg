@@ -31,6 +31,8 @@
 
   <rect x="90" y="930" width="1620" height="230" rx="16" fill="#fff8ef" stroke="#d4c7b6"/>
   <text x="130" y="995" font-family="Arial" font-size="30" fill="#2f2824">Inference:</text>
-  <text x="130" y="1045" font-family="Arial" font-size="28" fill="#2f2824">Censorship language remains institutionally procedural over time.</text>
-  <text x="130" y="1090" font-family="Arial" font-size="28" fill="#2f2824">The archive speaks in command verbs and operational tokens, not dialogic justification.</text>
+  <text x="130" y="1045" font-family="Arial" font-size="28" fill="#2f2824">Three selected description tokens recur; their normalized frequency is not established.</text>
+  <text x="130" y="1090" font-family="Arial" font-size="28" fill="#2f2824">Legacy ratio bars lack a common scale: regenerate before publication.</text>
+<rect x="0" y="0" width="1800" height="38" fill="#7a1717"/>
+<text x="24" y="27" font-family="Arial" font-size="22" fill="white">LEGACY DRAFT — UNVERIFIED; NOT CLEARED FOR PUBLICATION (review: 2026-09-28)</text>
 </svg>

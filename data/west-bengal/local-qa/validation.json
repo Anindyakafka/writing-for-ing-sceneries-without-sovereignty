@@ -1,0 +1,59 @@
+{
+  "rows": 5819543,
+  "schema_matches": true,
+  "invalid_record_id": 0,
+  "duplicate_document_serial_keys": 0,
+  "documents_reappearing": 0,
+  "missing_epic": 0,
+  "invalid_numeric": 0,
+  "name_status_mismatch": 0,
+  "invalid_age_flag": 0,
+  "domain_counts": {
+    "gender": {
+      "female": 3115194,
+      "male": 2703974,
+      "other": 375
+    },
+    "relation_type": {
+      "husband": 1957596,
+      "father": 3713098,
+      "mother": 110180,
+      "other": 35199,
+      "wife": 3470
+    },
+    "uncollectable_reason": {
+      "untraceable_or_absent": 1277521,
+      "permanently_shifted": 1987636,
+      "death": 2416131,
+      "already_enrolled": 138255
+    },
+    "elector_name_status": {
+      "observed": 5816108,
+      "destroyed_cid0_notdef": 3428,
+      "source_blank": 7
+    },
+    "relation_name_status": {
+      "observed": 5815999,
+      "destroyed_cid0_notdef": 3496,
+      "source_blank": 48
+    }
+  },
+  "invalid_domain_values": {
+    "gender": [],
+    "relation_type": [],
+    "uncollectable_reason": [],
+    "elector_name_status": [],
+    "relation_name_status": []
+  },
+  "checks": {
+    "expected_rows": true,
+    "schema": true,
+    "key": true,
+    "epic_complete": true,
+    "numeric_fields": true,
+    "name_status_consistent": true,
+    "age_flag_consistent": true,
+    "category_domains": true
+  },
+  "passed": true
+}

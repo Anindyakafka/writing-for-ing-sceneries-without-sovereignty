@@ -1,5 +1,7 @@
 # Scenery as Weapon
 
+> Historical draft, superseded by [v2](scenery-as-weapon-v2.md) on 28 September 2026. Proposed analyses and 2026-deletion terminology below are not verified findings.
+
 ## Subtitle
 How aesthetic order and administrative classification erase political life
 

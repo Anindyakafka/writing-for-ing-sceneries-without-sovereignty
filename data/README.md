@@ -6,8 +6,11 @@ This file tracks all external data repositories, datasets, and sources used in w
 
 ## Linked Repositories
 
+**Current evidence status (28 September 2026):** the [West Bengal integration](west-bengal/README.md) contains pinned documentation and independent full-file aggregate checks for the completed 2025 ASD extraction. The author's local CSV was read in place; person-level rows are not copied here. The [censorboard integration](censorboard/README.md) contains historical aggregates pending independent reproduction; its browser preview formerly used mock values. See the [review](../research/notes/repository-review-2026-09-28.md).
+
 | Repo | Description | Link | Notes |
 |------|-------------|------|-------|
+| Electoral-Rolls-West-Bengal-2002 | 2002 archive and completed 2025 ASD/SIR extraction | https://github.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002 | Pinned documentation at `f1cf680863b332acf91d84c8681848a8d07b6dcd`; 5,819,543 upstream-reported records, not final deletions |
 | CensorBoard_records | Rare censorboard records and assets (release-based) | https://github.com/Anindyakafka/CensorBoard_records | Integrated locally via `scripts/fetch_censorboard_releases.py` into `data/censorboard/raw/` |
 
 ---

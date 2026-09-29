@@ -10,12 +10,14 @@
     <path d="M500,420 L306,656 A330,330 0 0,1 500,90 z" fill="#e3b39e"/>
 
     <text x="860" y="360" font-family="Arial" font-size="34" fill="#8e1f1b">Deletion: 94.26%</text>
-    <text x="860" y="420" font-family="Arial" font-size="30" fill="#c66a4e">Replacement: 3.14%</text>
-    <text x="860" y="470" font-family="Arial" font-size="30" fill="#936d58">Insertion: 2.59%</text>
+    <text x="860" y="420" font-family="Arial" font-size="30" fill="#c66a4e">Replacement: 3.27%</text>
+    <text x="860" y="470" font-family="Arial" font-size="30" fill="#936d58">Insertion: 2.47%</text>
   </g>
 
   <rect x="90" y="930" width="1620" height="190" rx="16" fill="#fff8ef" stroke="#d4c7b6"/>
   <text x="130" y="995" font-family="Arial" font-size="30" fill="#2f2824">Inference:</text>
-  <text x="130" y="1045" font-family="Arial" font-size="28" fill="#2f2824">The censorship apparatus functions predominantly through removal, not substitution or contextualization.</text>
-  <text x="130" y="1090" font-family="Arial" font-size="28" fill="#2f2824">This supports reading the archive as a politics of subtraction.</text>
+  <text x="130" y="1045" font-family="Arial" font-size="28" fill="#2f2824">Deletion is 94.26% of the selected matrix counts; unique-intervention coverage is unknown.</text>
+  <text x="130" y="1090" font-family="Arial" font-size="28" fill="#2f2824">Legacy pie geometry is invalid: do not use this plate for publication.</text>
+<rect x="0" y="0" width="1800" height="38" fill="#7a1717"/>
+<text x="24" y="27" font-family="Arial" font-size="22" fill="white">LEGACY DRAFT — UNVERIFIED; NOT CLEARED FOR PUBLICATION (review: 2026-09-28)</text>
 </svg>

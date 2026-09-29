@@ -1,0 +1,25 @@
+{
+  "reviewed_on": "2026-09-28",
+  "upstream_commit": "f1cf680863b332acf91d84c8681848a8d07b6dcd",
+  "source_stage": "2025 uncollectable enumeration forms / SIR 2026 draft omission",
+  "upstream_reported": {
+    "pdf_inventory": 80655,
+    "readable_pdfs": 80651,
+    "zero_byte_pdfs": 4,
+    "records": 5819543
+  },
+  "independent_csv_verification": "local-verification.json",
+  "official_comparison": {
+    "electors": 76637529,
+    "forms_collected": 70816630,
+    "difference": 5820899,
+    "difference_minus_extracted_rows": 1356,
+    "reconciliation_status": "unresolved"
+  },
+  "not_estimated": [
+    "final deletions",
+    "community targeting",
+    "district exclusion rates",
+    "2002 linkage"
+  ]
+}

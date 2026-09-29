@@ -1,0 +1,118 @@
+{
+  "verified_on": "2026-09-28",
+  "input_file": "removed_electors_clean.csv.gz",
+  "input_bytes": 252175942,
+  "sha256": "98e2406644f0d97cae537f6cb656b90e2849294e9cf29415ad89cff240c7894c",
+  "method": "Full gzip CSV pass; document contiguity plus within-document key checks; no PDF re-extraction or final-roll linkage",
+  "rows": 5819543,
+  "columns": [
+    "record_id",
+    "document_id",
+    "source_relative_path",
+    "source_page",
+    "source_table",
+    "source_row",
+    "district_id",
+    "district_name",
+    "district_slug",
+    "ac_id",
+    "ac_name",
+    "ac_slug",
+    "part_id",
+    "serial_number",
+    "epic_number",
+    "elector_name",
+    "elector_name_status",
+    "relation_type",
+    "relation_type_raw",
+    "relation_name",
+    "relation_name_status",
+    "old_part_number",
+    "old_serial_number",
+    "age",
+    "age_above_120",
+    "gender",
+    "gender_raw",
+    "uncollectable_reason",
+    "uncollectable_reason_raw"
+  ],
+  "documents_with_rows": 80651,
+  "district_groups_with_rows": 24,
+  "assembly_constituencies_with_rows": 294,
+  "counts": {
+    "gender": {
+      "female": 3115194,
+      "male": 2703974,
+      "other": 375
+    },
+    "relation_type": {
+      "husband": 1957596,
+      "father": 3713098,
+      "mother": 110180,
+      "other": 35199,
+      "wife": 3470
+    },
+    "uncollectable_reason": {
+      "untraceable_or_absent": 1277521,
+      "permanently_shifted": 1987636,
+      "death": 2416131,
+      "already_enrolled": 138255
+    },
+    "elector_name_status": {
+      "observed": 5816108,
+      "destroyed_cid0_notdef": 3428,
+      "source_blank": 7
+    },
+    "relation_name_status": {
+      "observed": 5815999,
+      "destroyed_cid0_notdef": 3496,
+      "source_blank": 48
+    }
+  },
+  "district_record_counts": {
+    "Alipurduar": 95286,
+    "Bankura": 132821,
+    "Birbhum": 178876,
+    "Cooch Behar": 112014,
+    "Dakshin Dinajpur": 80984,
+    "Darjeeling": 122214,
+    "Hooghly": 318874,
+    "Howrah": 447341,
+    "Jalpaiguri": 133107,
+    "Jhargram": 52786,
+    "Kalimpong": 17331,
+    "Kolkata North": 390390,
+    "Kolkata South": 216150,
+    "Malda": 201873,
+    "Murshidabad": 278837,
+    "Nadia": 216623,
+    "North 24 Parganas": 792133,
+    "Paschim Bardhaman": 306146,
+    "Paschim Medinipur": 203341,
+    "Purba Bardhaman": 208075,
+    "Purba Medinipur": 141936,
+    "Purulia": 183416,
+    "South 24 Parganas": 818432,
+    "Uttar Dinajpur": 170557
+  },
+  "missing_name_cells": 6979,
+  "rows_with_any_missing_name": 3874,
+  "documents_with_missing_names": 3092,
+  "age_above_120_rows": 1,
+  "errors": {
+    "document_reappeared": 0,
+    "duplicate_document_serial": 0,
+    "invalid_record_id": 0,
+    "missing_epic": 0,
+    "invalid_domain": 0,
+    "name_status_mismatch": 0,
+    "age_flag_mismatch": 0
+  },
+  "passed": true,
+  "limits": [
+    "No final deletion or targeting inference",
+    "Document keys are not unique-person keys",
+    "District counts have no electorate denominator",
+    "Source damage classification inherited from upstream glyph audit"
+  ]
+}

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
   <rect width="1800" height="1200" fill="#f5ede2"/>
-  <text x="90" y="95" font-family="Georgia, serif" font-size="50" fill="#201915">Rupture: 2021 Is Not Just A Bigger Year</text>
+  <text x="90" y="95" font-family="Georgia, serif" font-size="50" fill="#201915">Recorded Duration: 2020 to 2021</text>
   <text x="90" y="138" font-family="Arial, sans-serif" font-size="24" fill="#5a5048">Inference plate from real computed CBFC release data</text>
 
   <rect x="90" y="180" width="1620" height="250" rx="18" fill="#fff8ef" stroke="#d4c7b6"/>
@@ -25,5 +25,7 @@
   <text x="1330" y="1060" font-family="Arial" font-size="20" fill="#2f2824">2024</text>
   <text x="1510" y="1060" font-family="Arial" font-size="20" fill="#2f2824">2025</text>
 
-  <text x="90" y="1135" font-family="Arial" font-size="24" fill="#3f352d">Observation: The archive indicates a regulatory hardening event, not merely more films entering certification.</text>
+  <text x="90" y="1135" font-family="Arial" font-size="24" fill="#3f352d">Observation: Recorded duration rose; coverage and composition remain unverified. Cause not established.</text>
+<rect x="0" y="0" width="1800" height="38" fill="#7a1717"/>
+<text x="24" y="27" font-family="Arial" font-size="22" fill="white">LEGACY DRAFT — UNVERIFIED; NOT CLEARED FOR PUBLICATION (review: 2026-09-28)</text>
 </svg>

@@ -44,4 +44,6 @@
   <circle cx="1517" cy="801" r="5" fill="#223f5f"/>
 
   <text x="90" y="1015" font-family="Arial" font-size="22" fill="#3f372f">Blue line: seconds per certificate (intensity). Peak intensity appears in 2021-2022.</text>
+<rect x="0" y="0" width="1800" height="38" fill="#7a1717"/>
+<text x="24" y="27" font-family="Arial" font-size="22" fill="white">LEGACY DRAFT — UNVERIFIED; NOT CLEARED FOR PUBLICATION (review: 2026-09-28)</text>
 </svg>

@@ -1,0 +1,52 @@
+{
+  "input": "data\\interim\\wb_2025_asd\\removed_electors_raw.csv",
+  "output": "data\\processed\\wb_2025_asd\\removed_electors_clean.csv.gz",
+  "rows": 5819543,
+  "output_bytes": 252175942,
+  "duplicate_adjacent_record_ids": 0,
+  "missing_name_classifications_available": 6979,
+  "missing_name_classifications_used": 6979,
+  "unused_missing_name_classifications": 0,
+  "counts": {
+    "gender": {
+      "female": 3115194,
+      "male": 2703974,
+      "other": 375
+    },
+    "relation_type": {
+      "husband": 1957596,
+      "father": 3713098,
+      "mother": 110180,
+      "other": 35199,
+      "wife": 3470
+    },
+    "reason": {
+      "untraceable_or_absent": 1277521,
+      "permanently_shifted": 1987636,
+      "death": 2416131,
+      "already_enrolled": 138255
+    },
+    "elector_name_status": {
+      "observed": 5816108,
+      "destroyed_cid0_notdef": 3428,
+      "source_blank": 7
+    },
+    "relation_name_status": {
+      "observed": 5815999,
+      "destroyed_cid0_notdef": 3496,
+      "source_blank": 48
+    }
+  },
+  "unmapped_raw_values": {
+    "gender": {},
+    "relation_type": {},
+    "reason": {}
+  },
+  "checks": {
+    "row_count_matches_validated_raw": true,
+    "record_ids_unique_in_source_order": true,
+    "all_missing_name_cells_classified": true,
+    "all_categories_mapped": true
+  },
+  "passed": true
+}

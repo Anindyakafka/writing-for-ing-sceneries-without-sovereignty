@@ -2,6 +2,8 @@
 
 Chronological log of work sessions on this repository. Oldest entries first.
 
+**Current entry:** Session 012, below. Earlier claims of “real computed” or “publication-ready” imagery record historical work and are qualified by the September evidence review.
+
 ---
 
 ## Session 001 — 13 April 2026
@@ -177,5 +179,22 @@ Chronological log of work sessions on this repository. Oldest entries first.
 **Intentions set this session:**
 - Tighten language-specific caution notes and sample-size caveats for publication ethics
 - Prepare alternate minimalist versions for page-constrained print layouts
+
+---
+
+## Session 012 — 28 September 2026
+
+**Reviewed the repository and completed a revised full essay with updated WB evidence.**
+
+- Read the concept note, all essay drafts, project documentation, scripts, saved datasets, and visual sources. Recorded findings in `research/notes/repository-review-2026-09-28.md`.
+- Wrote `drafts/essays/scenery-as-weapon-v2.md`: approximately 2,260 words before source notes, retaining the five-part structure and replacing proposed WB extraction with actual findings. Older drafts remain labelled historical.
+- Retrieved upstream WB documentation and analysis code at `f1cf680863b332acf91d84c8681848a8d07b6dcd`; retained its license, source URLs, hashes, release metadata, and the official December 16 press note.
+- The author supplied `C:\Users\anind\Electoral-Rolls-West-Bengal-2002\data\processed\wb_2025_asd`. Read its 252,175,942-byte cleaned gzip without modification. Independently checked all 5,819,543 rows, record keys, category domains, numeric fields, EPIC completeness, missing-name statuses, and age flags. All checks passed and agree with upstream QA. No PDF re-extraction or final-roll linkage was performed.
+- Added a reusable aggregate verification script and saved aggregate-only results. Verified reason counts and the distinction between 6,979 missing name cells and 3,874 affected records. Recorded the unresolved 1,356 difference from official enumeration totals.
+- Generated a new WB recorded-reasons figure in SVG, PDF, and PNG with source notes and alt text; visually reviewed the PNG. Kept administrative categories distinct from verified circumstances and final deletion outcomes.
+- Replaced active CBFC mock values with an explicitly provisional adapter of the historical saved aggregate. Corrected action-share arithmetic; withdrew causal interpretations; marked all legacy print SVGs unverified and documented invalid proportional encodings. The underlying CBFC source computation remains unreplicated.
+- Updated root/data/section READMEs, plan, and sources to identify the current manuscript, verified work, and remaining editorial/evidence tasks.
+
+**Remaining:** author/editor review, Bengali copyedit, publication specifications; WB reconciliation and later outcomes if pursued; CBFC source reproduction and validated figures before quantitative claims. No files in the source data repository were edited. No submission, commit, or publication was performed.
 
 ---

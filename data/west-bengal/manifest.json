@@ -1,0 +1,182 @@
+{
+  "retrieved_on": "2026-09-28",
+  "upstream_commit": "f1cf680863b332acf91d84c8681848a8d07b6dcd",
+  "files": [
+    {
+      "path": "upstream/code/notebooks/README.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/code/notebooks/README.md",
+      "sha256": "788f3a4c20ed41b8e5565b16b8e7eb9db5fcbe03dacea98fa6f611a74b021ba3"
+    },
+    {
+      "path": "upstream/code/README.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/code/README.md",
+      "sha256": "cfeb72cc8fbeb02392f42593c4578f9c48a3e6c14087e335606dd82e44828df3"
+    },
+    {
+      "path": "upstream/code/scripts/wb_2002/README.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/code/scripts/wb_2002/README.md",
+      "sha256": "48e00653eb5488d2f196bc9d0b35edc30de8ed26f1e83e3384688a59058bd6e4"
+    },
+    {
+      "path": "upstream/code/scripts/wb_2025/README.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/code/scripts/wb_2025/README.md",
+      "sha256": "829f1add3308ddb07f01ba03464d5243d50ba554f60dc8a4206cfadfcfbb5584"
+    },
+    {
+      "path": "upstream/code/scripts/wb_2025_asd/audit_pdf_corpus.py",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/code/scripts/wb_2025_asd/audit_pdf_corpus.py",
+      "sha256": "bdc97079bf9cfa9a8ecbc650cb1126a391d7d5298e707c64a70bd7309efeac8b"
+    },
+    {
+      "path": "upstream/code/scripts/wb_2025_asd/build_analysis_dataset.py",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/code/scripts/wb_2025_asd/build_analysis_dataset.py",
+      "sha256": "30ac40d887c0e10606cbcaa6b3907b904fed88d14cedd1155488bb40af4311dc"
+    },
+    {
+      "path": "upstream/code/scripts/wb_2025_asd/build_missing_name_manifest.py",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/code/scripts/wb_2025_asd/build_missing_name_manifest.py",
+      "sha256": "da2e3087c19d7b7aed268c771876504b00ac546f27e243565346ad88b307f5ca"
+    },
+    {
+      "path": "upstream/code/scripts/wb_2025_asd/classify_missing_name_cells.py",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/code/scripts/wb_2025_asd/classify_missing_name_cells.py",
+      "sha256": "4801c394953c9bd9af83f4362efd4bb1eb2d5a86b8461e823427357b350d3d8e"
+    },
+    {
+      "path": "upstream/code/scripts/wb_2025_asd/extract_removed_electors.py",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/code/scripts/wb_2025_asd/extract_removed_electors.py",
+      "sha256": "c55eebf2be534f19283cde621dcca8ccdd04cb81157d148c04803c58ee607794"
+    },
+    {
+      "path": "upstream/code/scripts/wb_2025_asd/README.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/code/scripts/wb_2025_asd/README.md",
+      "sha256": "578685e1a72e7a9a15da68f5cbe3346162c99cd7cdf2239b4c649620a8404216"
+    },
+    {
+      "path": "upstream/code/scripts/wb_2025_asd/recover_missing_names_ocr.py",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/code/scripts/wb_2025_asd/recover_missing_names_ocr.py",
+      "sha256": "2de046d4821837f04c7def6ad1773f8f10faf6cdb3a816dcbaf9ce4afc66cd97"
+    },
+    {
+      "path": "upstream/code/scripts/wb_2025_asd/run_statewide_extraction.py",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/code/scripts/wb_2025_asd/run_statewide_extraction.py",
+      "sha256": "702e6a92e4e880e16d9f8d6f3f4a4b9dd6d106c09f62a1c1593548838f9f8546"
+    },
+    {
+      "path": "upstream/code/scripts/wb_2025_asd/validate_analysis_dataset.py",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/code/scripts/wb_2025_asd/validate_analysis_dataset.py",
+      "sha256": "bce753908e8627316dd1fb73caf403f4f4b759bda7501d1928e7c324ecdb1af4"
+    },
+    {
+      "path": "upstream/code/scripts/wb_2025_asd/validate_statewide_dataset.py",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/code/scripts/wb_2025_asd/validate_statewide_dataset.py",
+      "sha256": "02405606b959ad39307be44589bbfd84ee78a142a9441a78d734757fdd99f00b"
+    },
+    {
+      "path": "upstream/data/interim/wb_2025_asd/missing_name_cells_summary.json",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/data/interim/wb_2025_asd/missing_name_cells_summary.json",
+      "sha256": "1814050e1a81251da3097405b242217ac725f28bf6df97acbdde8850485811eb"
+    },
+    {
+      "path": "upstream/data/interim/wb_2025_asd/missing_name_source_classification.json",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/data/interim/wb_2025_asd/missing_name_source_classification.json",
+      "sha256": "0b0e53585aaca7f46683db7cd161ba0f4cc4cd13bbb374745f6d2a93d7e4868f"
+    },
+    {
+      "path": "upstream/data/interim/wb_2025_asd/README.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/data/interim/wb_2025_asd/README.md",
+      "sha256": "ff697d6b5c54ae9967b62d69e49862524c403ce725bdefce49afe4f0df29a47f"
+    },
+    {
+      "path": "upstream/data/metadata/wb_2025_asd/audit_report.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/data/metadata/wb_2025_asd/audit_report.md",
+      "sha256": "41f159f0606f2363d11ab137410be89558c946ad6b2aabd8fc51ae0ed0761f48"
+    },
+    {
+      "path": "upstream/data/metadata/wb_2025_asd/category_mappings.csv",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/data/metadata/wb_2025_asd/category_mappings.csv",
+      "sha256": "6adf7323ce94b8db24272a93d8350c3a45dec7aad127fa6ab022e682fd70abd6"
+    },
+    {
+      "path": "upstream/data/metadata/wb_2025_asd/data_dictionary.csv",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/data/metadata/wb_2025_asd/data_dictionary.csv",
+      "sha256": "31e7e75e14c981d28b88ec2c6467ff9b0ec44dfecb13b7cc5ded5ed971ca5b41"
+    },
+    {
+      "path": "upstream/data/metadata/wb_2025_asd/known_source_anomalies.csv",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/data/metadata/wb_2025_asd/known_source_anomalies.csv",
+      "sha256": "7aad17549758b7cda1da0953553a9008c183721d3bc167f7f4ea4b91e2767b06"
+    },
+    {
+      "path": "upstream/data/metadata/wb_2025_asd/lineage.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/data/metadata/wb_2025_asd/lineage.md",
+      "sha256": "2f8541c3e58d0814cc26da1f8435a53cd75b757992587e3d6fead60e2b5a507e"
+    },
+    {
+      "path": "upstream/data/metadata/wb_2025_asd/obstacles.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/data/metadata/wb_2025_asd/obstacles.md",
+      "sha256": "0a1f61730298b47d544c2fb1e4ae6caf37d9d4da3a5f74e9889c723cac726737"
+    },
+    {
+      "path": "upstream/data/metadata/wb_2025_asd/README.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/data/metadata/wb_2025_asd/README.md",
+      "sha256": "d279bbac2da7eb4c78e0f180171f7f3e0c76cfaea1b05a88906827b3e83aff13"
+    },
+    {
+      "path": "upstream/data/processed/wb_2025_asd/README.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/data/processed/wb_2025_asd/README.md",
+      "sha256": "faaf8f1c7420b62dca1cfba35cf0c1092009732c243055bb2bb4a67d2858bb6e"
+    },
+    {
+      "path": "upstream/data/raw/ceowestbengal/asd_sir/README.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/data/raw/ceowestbengal/asd_sir/README.md",
+      "sha256": "3bb1102d0f250762f68d194fae04d8cc903d2d73ab98ea02a20f236a1b65952b"
+    },
+    {
+      "path": "upstream/data/raw/external/wb_2025_asd/README.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/data/raw/external/wb_2025_asd/README.md",
+      "sha256": "a4dac33df86f4ff73fc5c4d5005f517b0621f578a9d27ba7aa72c94b3a8fff9e"
+    },
+    {
+      "path": "upstream/data/README.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/data/README.md",
+      "sha256": "a66ed237929d9dd8f5a0b3c3b7fc19c211a1921c3c3693292daaa2f47b9794e0"
+    },
+    {
+      "path": "upstream/LICENSE",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/LICENSE",
+      "sha256": "2b13def6ba89206b2ce86d15a37e41bc8ad7e8e2945e9befb141053013bcacbc"
+    },
+    {
+      "path": "upstream/outputs/README.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/outputs/README.md",
+      "sha256": "0404f323e825d62d912d5f2994b3319e70da394c0e6b5df52d9e6037e58869c4"
+    },
+    {
+      "path": "upstream/PROJECT_LOG.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/PROJECT_LOG.md",
+      "sha256": "1129d291dab1bb0a84062500abe8ab8b089ae10d42a332c31391fdb77132085e"
+    },
+    {
+      "path": "upstream/README.md",
+      "url": "https://raw.githubusercontent.com/Anindyakafka/Electoral-Rolls-West-Bengal-2002/f1cf680863b332acf91d84c8681848a8d07b6dcd/README.md",
+      "sha256": "98610f11c1071cae5704548ef621ce2ada813dd408073d7438c7d34070c2cbba"
+    },
+    {
+      "path": "CEO-PN-36-2025.pdf",
+      "sha256": "64a763ba08b6caf3692048f78d425fa1422aa8d4423119efd933446f53d25f29"
+    },
+    {
+      "path": "releases.json",
+      "sha256": "e7740532727436b571f1e4bb42cfee4ca47f528385b6417c7921a725271a04b9"
+    },
+    {
+      "path": "local-qa/cleaning_qa.json",
+      "sha256": "e13c71269163c8e97ea6217b8d1c441005069a7d742515199949a80926ae5daa"
+    },
+    {
+      "path": "local-qa/validation.json",
+      "sha256": "5c4b297870d1e98f21629fd0a231a255037ee30c782f7c89a8a66355c321c9ce"
+    }
+  ]
+}
