@@ -22,15 +22,15 @@ Emerged from a solo exhibition of the same name at **Project 88, Mumbai** (Septe
 
 ## About This Repository
 
-## Current writing status — 28 September 2026
+## Current writing status — 29 September 2026
 
-Start with **[Scenery as Weapon — revised full draft](drafts/essays/scenery-as-weapon-v2.md)**. It is a complete, source-noted manuscript for author review. The older v1 and section files are retained as historical drafts.
+Start with **[Scenery as Weapon — final draft v3](drafts/final/scenery-as-weapon-v3.md)**. Revised in response to editorial critique, it opens with the damaged name, centres land and residence, addresses the case for roll maintenance, and reduces film to one paragraph. It is about 1,830 words before notes. The [separate methods and editorial record](research/notes/scenery-as-weapon-v3-methods.md) holds the audit trail and explains the changes. Versions v1, v2, and the original section files remain preserved.
 
 The West Bengal section now uses the completed **2025 ASD/SIR extraction: 5,819,543 records**, independently checked in a full pass through the author's local cleaned CSV. These are uncollectable-form/draft-omission records, not an established count of final deletions. See [dataset status and provenance](data/west-bengal/README.md) and the new [recorded-reasons figure](assets/visuals/west-bengal/README.md).
 
 The **[full repository review and completion checklist](research/notes/repository-review-2026-09-28.md)** records what was examined, evidence limits, and outstanding work. In particular:
 
-- **Writing:** full v2 drafted; author voice/length review and Bengali copyedit remain.
+- **Writing:** final draft v3 completed; author voice/length review and Bengali copyedit remain. Final-draft status does not imply editorial approval or submission.
 - **West Bengal:** full CSV verification, reason counts, source notes, missing-name audit, and official context integrated; the 1,356-record reconciliation and later outcomes remain open.
 - **Censorboard:** mock browser data replaced with a labelled historical aggregate; unsupported inferences withdrawn. Existing print graphics are not cleared for publication. Reproduction from source CSVs and corrected figures remain necessary for quantitative claims.
 - **Submission:** confirm deadline, word limit, citation style, and figure specifications with editors. No submission has been made.

@@ -2,9 +2,9 @@
 
 Working plan for contributions to *"…ing: Sceneries Without Sovereignty"* (JINN + Nabarun Publication).
 
-## Active plan — 28 September 2026
+## Active plan — 29 September 2026
 
-The selected contribution is **Scenery as Weapon**. A [complete v2 draft](drafts/essays/scenery-as-weapon-v2.md) and [repository review](research/notes/repository-review-2026-09-28.md) now supersede the exploratory plan below.
+The selected contribution is **Scenery as Weapon**. The [final draft v3](drafts/final/scenery-as-weapon-v3.md), [methods/editorial note](research/notes/scenery-as-weapon-v3-methods.md), and [repository review](research/notes/repository-review-2026-09-28.md) supersede the exploratory plan below. V3 incorporates the supplied critique and makes the electoral archive the essay's centre; CBFC remains a one-paragraph analogy, and the unmatched 2002 comparison is omitted.
 
 1. Author reviews the manuscript's voice and scope; confirm editorial length/deadline and citation requirements.
 2. Completed: obtained read access to the author's local WB cleaned CSV and final QA, checked all 5,819,543 rows, and produced aggregate reason counts and a figure. Remaining: reconcile the 1,356 difference from official enumeration totals.

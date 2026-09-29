@@ -2,7 +2,7 @@
 
 Chronological log of work sessions on this repository. Oldest entries first.
 
-**Current entry:** Session 012, below. Earlier claims of “real computed” or “publication-ready” imagery record historical work and are qualified by the September evidence review.
+**Current entry:** Session 013, below. Earlier claims of “real computed” or “publication-ready” imagery record historical work and are qualified by the September evidence review.
 
 ---
 
@@ -198,3 +198,17 @@ Chronological log of work sessions on this repository. Oldest entries first.
 **Remaining:** author/editor review, Bengali copyedit, publication specifications; WB reconciliation and later outcomes if pursued; CBFC source reproduction and validated figures before quantitative claims. No files in the source data repository were edited. No submission, commit, or publication was performed.
 
 ---
+
+## Session 013 ? 29 September 2026
+
+**Incorporated the supplied editorial critique in a new final draft.**
+
+- Added `drafts/final/scenery-as-weapon-v3.md`, approximately 1,830 words before notes; left v1 and v2 unchanged.
+- Opened with the damaged name cell; brought residence, land, and ongoing revision into the argument; retained the uncollectable/failed-encounter observation and the final sentence.
+- Consolidated evidence limits, addressed the death-category counterargument, and grounded the practical burden of seeking inclusion in the official December instructions, acknowledging official assistance.
+- Reduced film to one paragraph and removed the unmatched 2002 comparison from the manuscript. Used an explicitly marked Bengali lexical reading rather than invented testimony.
+- Moved technical abbreviations, hashes, local paths, audit counts, and claim boundaries into `research/notes/scenery-as-weapon-v3-methods.md`; retained readable public citations in the essay.
+- Updated the main README, active plan, and final/section draft navigation. No datasets or figures were changed and no new empirical results are claimed.
+- Checked manuscript figures against the saved verification, footnote references, local navigation, and absence of repository scaffolding in the manuscript.
+
+**Remaining:** author's voice pass, Bengali copyedit, editorial word limit and notes/figure decisions. No submission or publication.
